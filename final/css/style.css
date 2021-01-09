@@ -1,12 +1,14 @@
-body {
-    text-align: center;
+p {
+    color: olive;
 }
 header {
     background-color: orange;
 }
-h1 {
-    font-size: 90px;
+footer {
+    background-color: lightcoral;
 }
-p {
-    font-size: 20px;
+a {
+    color: darkblue;
+    background-color: peachpuff;
+    text-decoration: none;
 }
