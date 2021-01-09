@@ -1,0 +1,11 @@
+/*Finally, create a new type selector that targets the div element. Add a background-color property and set the value to lightblue.*/
+body {
+    text-align: center;
+}
+p {
+    color: midnightblue;
+}
+header {
+    background-color: orange;
+    color: white;
+}
