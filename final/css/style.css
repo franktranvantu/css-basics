@@ -1,0 +1,21 @@
+p {
+    color: olive;
+}
+header {
+    background-color: orange;
+}
+footer {
+    background-color: lightcoral;
+}
+a {
+    color: darkblue;
+    background-color: peachpuff;
+    text-decoration: none;
+}
+#education {
+    border: solid 3px red;
+}
+#skill-list {
+    background-color: aliceblue;
+    padding: 36px;
+}
