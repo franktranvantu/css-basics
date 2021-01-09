@@ -19,3 +19,20 @@ a {
     background-color: aliceblue;
     padding: 36px;
 }
+.top-skills {
+    font-weight: bold;
+    background-color: teal;
+    color: papayawhip;
+}
+.date {
+    border: solid 2px steelblue;
+    border-radius: 12px;
+    padding: 6px;
+}
+.special {
+    text-transform: uppercase;
+    background-color: papayawhip;
+}
+#proud {
+    font-size: 48px;
+}
