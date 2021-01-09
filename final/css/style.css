@@ -1,7 +1,5 @@
-/*header*/
-/*#header-box*/
-/*a:focus*/
-/*#education h3*/
+/*#heading*/
+/*.heading*/
 
 html {
     font-size: 20px;
@@ -10,12 +8,18 @@ h1 {
     font-size: 4em;
     margin-bottom: 1.5rem;
 }
+#heading {
+    color: white;
+}
+.heading {
+    color: black;
+}
 p {
     color: olive;
     font-size: 26px;
 }
 header {
-    background-color: #ff6600; /* this is the same as #f60*/
+    background-color: #ff6600;
     width: 80%;
     margin: 10%;
 }
