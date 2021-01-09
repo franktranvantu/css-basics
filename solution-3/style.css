@@ -1,0 +1,11 @@
+/*Finally, let's reduce the width of the header element. Give it a width value that takes up 80 percent of its container's width.*/
+
+.heading {
+    font-size: 48px;
+}
+h2 {
+    font-size: 32px;
+}
+header {
+    width: 80%;
+}
