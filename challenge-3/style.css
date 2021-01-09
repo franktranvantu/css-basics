@@ -1,8 +1,8 @@
-/*Finally, target the paragraph that is a descendant of the footer element. Add a color property and set the value to slategrey.*/
+/*Finally, add a new pseudo-class selector that targets all links on hover. Add a color property and set the value to tomato.*/
 
-header span {
-    font-size: 26px;
+a:link {
+    color: orange;
 }
-.main-content ul {
-    background-color: papayawhip;
+a:visited {
+    color: steelblue;
 }

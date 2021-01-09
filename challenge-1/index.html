@@ -10,11 +10,26 @@
   <body>
     <main>
       <header>
-        <img src="developer-diane.jpg" alt="Developer Diane coding on her laptop.">
-        <h1>Developer Diane: Resume</h1>
-        <span>email: diane@developerdiane.com</span>
+        <div id="header-box">
+          <h1 id="heading">Developer Diane: Resume</h1>
+          <address>
+            <p>website: developerdiane.com</p>
+            <p>email: diane@developerdiane.com</p>
+          </address>
+          <img src="developer-diane.jpg" alt="Developer Diane coding on her laptop.">
+        </div>
       </header>
-      <section class="main-content">
+      <section id="education">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            <h3><a href="https://teamtreehouse.com">Treehouse</a></h3>
+            <p>Front End <em>Web Development</em> Techdegree</p>
+            <p class="date special">Graduated January 2020</p>
+          </li>
+        </ul>
+      </section>
+      <section>
         <h2>Experience</h2>
         <ul>
           <li>
@@ -25,8 +40,20 @@
           <li>
             <h3>Pretty Good Websites, Inc.</h3>
             <p>Web Development Intern</p>
-            <p>July 2019-January 2020</p>
+            <p class="date">July 2019-January 2020</p>
           </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Skills</h2>
+        <ul id="skills-list">
+          <li class="top-skill">HTML</li>
+          <li>CSS</li>
+          <li class="top-skill" id="proud">JavaScript</li>
+          <li>Git</li>
+          <li>Bootstrap</li>
+          <li class="top-skill">Mobile Web Development</li>
+          <li>Accessibility</li>
         </ul>
       </section>
       <section>
@@ -38,9 +65,7 @@
           <li>Certified Accessibility Specialist</li>
         </ol>
       </section>
-      <footer>
-        <p>Developer Diane. <small>©2020</small></p>
-      </footer>
+      <footer>©2020 Developer Diane.</footer>
     </main>
   </body>
 </html>

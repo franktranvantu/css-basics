@@ -1,5 +1,5 @@
-/*Create a descendant selector that targets the span inside the header element. Add a font-size property and set the value to 26px.*/
+/*Use the pseudo-class selector that targets default, unvisited links. Set their color value to orange.*/
 
-header span {
-    font-size: 26px;
+a:link {
+    color: orange;
 }

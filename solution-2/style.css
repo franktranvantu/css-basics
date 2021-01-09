@@ -1,8 +1,8 @@
-/*Next, target the unordered list that is a descendant of the main-content class. Add a background-color property and set the value to papayawhip.*/
+/*Next, create a pseudo-class selector that targets all visited links. Add a color property and set the value to steelblue.*/
 
-header span {
-    font-size: 26px;
+a:link {
+    color: orange;
 }
-.main-content ul {
-    background-color: papayawhip;
+a:visited {
+    color: steelblue;
 }
