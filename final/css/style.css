@@ -1,25 +1,27 @@
-/*h1*/
+/*header*/
+/*#header-box*/
+/*a:focus*/
+/*#education h3*/
 
 html {
     font-size: 20px;
 }
 h1 {
     font-size: 4em;
-    /*margin-bottom: 1.5em;*/ /* 20*4*1.5 = 120 */
-    margin-bottom: 1.5rem; /* 20*1.5 = 30 */
+    margin-bottom: 1.5rem;
 }
 p {
     color: olive;
     font-size: 26px;
 }
 header {
-    background-color: orange;
+    background-color: #ff6600; /* this is the same as #f60*/
     width: 80%;
     margin: 10%;
 }
 #header-box {
     width: 50%;
-    background-color: tomato;
+    background-color: #33d549;
 }
 img {
     width: 100%;
@@ -43,8 +45,8 @@ a:hover {
     text-decoration: underline;
 }
 a:focus {
-    background-color: orange;
-    color: white;
+    background-color: rgba(255, 165, 0, .5);
+    color: rgb(255, 255, 255);
 }
 ol li {
     letter-spacing: 3px;
@@ -63,6 +65,7 @@ ul li {
 #education h3 {
     font-family: Arial, sans-serif;
     font-size: 32px;
+    background-color: rgb(150, 200, 250);
 }
 #skill-list {
     background-color: aliceblue;
