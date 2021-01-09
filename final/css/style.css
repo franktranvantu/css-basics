@@ -1,9 +1,30 @@
+/*header*/
+/*#header-box*/
+/*img*/
+/*h1*/
+/*html*/
+
+html {
+    font-size: 20px;
+}
+h1 {
+    font-size: 400%;
+}
 p {
     color: olive;
+    font-size: 26px;
 }
 header {
     background-color: orange;
-    width: 960px;
+    width: 80%;
+    margin: 10%;
+}
+#header-box {
+    width: 50%;
+    background-color: tomato;
+}
+img {
+    width: 100%;
 }
 header p {
     background-color: snow;

@@ -1,8 +1,12 @@
+h1 {
+    font-size: 90px;
+}
 p {
     color: olive;
 }
 header {
     background-color: orange;
+    width: 960px;
 }
 header p {
     background-color: snow;
@@ -36,6 +40,7 @@ ol li:first-child {
 ul li {
     list-style: none;
 }
+/*ID selectors*/
 #education {
     border: solid 3px red;
 }
@@ -47,6 +52,7 @@ ul li {
     background-color: aliceblue;
     padding: 36px;
 }
+/*class selectors*/
 .top-skills {
     font-weight: bold;
     background-color: teal;
