@@ -4,6 +4,10 @@ p {
 header {
     background-color: orange;
 }
+header p {
+    background-color: snow;
+    border-bottom: solid 1px gray;
+}
 footer {
     background-color: lightcoral;
 }
@@ -12,8 +16,19 @@ a {
     background-color: peachpuff;
     text-decoration: none;
 }
+ol li {
+    letter-spacing: 3px;
+    color: tomato;
+}
+ul li {
+    list-style: none;
+}
 #education {
     border: solid 3px red;
+}
+#education h3 {
+    font-family: Arial, sans-serif;
+    font-size: 32px;
 }
 #skill-list {
     background-color: aliceblue;

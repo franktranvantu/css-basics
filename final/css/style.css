@@ -1,7 +1,8 @@
-/*#education h3*/
-/*header p*/
-/*ol li*/
-/*ul li*/
+/*a:link*/
+/*a:visited*/
+/*a:hover*/
+/*a:focus*/
+/*ol li:first-child*/
 
 p {
     color: olive;
@@ -16,14 +17,27 @@ header p {
 footer {
     background-color: lightcoral;
 }
-a {
+a:link {
     color: darkblue;
     background-color: peachpuff;
     text-decoration: none;
 }
+a:visited {
+    color: seagreen;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:focus {
+    background-color: orange;
+    color: white;
+}
 ol li {
     letter-spacing: 3px;
     color: tomato;
+}
+ol li:first-child {
+    font-weight: bold;
 }
 ul li {
     list-style: none;
