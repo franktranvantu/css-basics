@@ -1,0 +1,8 @@
+/*Next, target the unordered list that is a descendant of the main-content class. Add a background-color property and set the value to papayawhip.*/
+
+header span {
+    font-size: 26px;
+}
+.main-content ul {
+    background-color: papayawhip;
+}

@@ -1,0 +1,8 @@
+/*Finally, target the paragraph that is a descendant of the footer element. Add a color property and set the value to slategrey.*/
+
+header span {
+    font-size: 26px;
+}
+.main-content ul {
+    background-color: papayawhip;
+}
