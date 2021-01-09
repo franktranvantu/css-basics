@@ -1,9 +1,3 @@
-/*a:link*/
-/*a:visited*/
-/*a:hover*/
-/*a:focus*/
-/*ol li:first-child*/
-
 p {
     color: olive;
 }
@@ -42,6 +36,7 @@ ol li:first-child {
 ul li {
     list-style: none;
 }
+/*ID selectors*/
 #education {
     border: solid 3px red;
 }
@@ -53,6 +48,7 @@ ul li {
     background-color: aliceblue;
     padding: 36px;
 }
+/*class selectors*/
 .top-skills {
     font-weight: bold;
     background-color: teal;
