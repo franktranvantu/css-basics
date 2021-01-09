@@ -1,0 +1,19 @@
+/*Create a new rule that targets the h2. The parent element of the h2 has a font-size value of 16px.
+Use an em unit to give the h2 a font-size value equivalent to 48px.*/
+
+html {
+    font-size: 16px;
+}
+
+header {
+    font-size: 1.5em;
+}
+
+.heading {
+    font-size: 5rem; /* 16*5 = 80px */
+}
+
+h2 {
+    font-size: 3em; /* 16*3 = 48px*/
+    /*font-size: 3rem;*/
+}

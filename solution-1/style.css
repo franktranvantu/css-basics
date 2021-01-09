@@ -1,0 +1,15 @@
+/*The em-based font-size value for .heading is relative to its parent header's font-size value. */
+/*This causes a compounding issue that makes the font-size value larger than the desired value.*/
+/*Replace the em units of .heading with a unit that is relative to the root element of the page.*/
+
+html {
+    font-size: 16px;
+}
+
+header {
+    font-size: 1.5em;
+}
+
+.heading {
+    font-size: 5rem; /* 16*5 = 80px */
+}

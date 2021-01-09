@@ -1,0 +1,23 @@
+/*Finally, create a new rule that targets the h3. Using the same parent font-size context,
+give the h3 a font-size value in ems equivalent to 20px.*/
+
+html {
+    font-size: 16px;
+}
+
+header {
+    font-size: 1.5em;
+}
+
+.heading {
+    font-size: 5rem; /* 16*5 = 80px */
+}
+
+h2 {
+    font-size: 3em; /* 16*3 = 48px*/
+    /*font-size: 3rem;*/
+}
+
+h3 {
+    font-size: 1.25em;
+}
