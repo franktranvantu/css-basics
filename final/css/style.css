@@ -3,6 +3,7 @@ p {
 }
 header {
     background-color: orange;
+    width: 960px;
 }
 header p {
     background-color: snow;
