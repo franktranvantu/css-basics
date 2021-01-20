@@ -1,4 +1,5 @@
-/*Next, create a pseudo-class selector that targets all visited links. Add a color property and set the value to steelblue.*/
+/*Next, create a pseudo-class selector that targets all visited links.
+Add a color property and set the value to steelblue.*/
 
 a:link {
     color: orange;

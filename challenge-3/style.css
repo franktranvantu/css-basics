@@ -1,4 +1,5 @@
-/*Finally, add a new pseudo-class selector that targets all links on hover. Add a color property and set the value to tomato.*/
+/*Finally, add a new pseudo-class selector that targets all links on hover.
+Add a color property and set the value to tomato.*/
 
 a:link {
     color: orange;

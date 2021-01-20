@@ -1,4 +1,5 @@
-/*Use the pseudo-class selector that targets default, unvisited links. Set their color value to orange.*/
+/*Use the pseudo-class selector that targets default, unvisited links.
+Set their color value to orange.*/
 
 a:link {
     color: orange;
