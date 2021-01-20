@@ -2,8 +2,6 @@
 Add a background-color property and set the value to lightblue.*/
 body {
     text-align: center;
-}
-p {
     color: midnightblue;
 }
 header {
